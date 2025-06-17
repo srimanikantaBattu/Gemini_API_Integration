@@ -1,34 +1,37 @@
-# 🔮 Gemini API Integration
+# Gemini API Integration
 
-This project demonstrates how to integrate Google's **Gemini API** using React and JavaScript.
+This project demonstrates how to integrate Google's Gemini API using React and JavaScript.
 
 ---
 
-## 🚀 Gemini API Key Generation Guide
+## Gemini API Key Generation Guide
 
-Follow these steps to generate your Gemini API Key:
+Follow the steps below to generate your Gemini API Key and configure it in the project:
 
-### 🔧 Step 1: Create a Google Cloud Project
-Visit the following link and create a new project:  
-👉 [Create a Project](https://developers.google.com/workspace/guides/create-project)
+### Step 1: Create a Google Cloud Project
+Visit the following link to create a new project:  
+[https://developers.google.com/workspace/guides/create-project](https://developers.google.com/workspace/guides/create-project)
 
-### 🔐 Step 2: Generate Gemini API Key
-Go to:  
-👉 [Google AI Studio - API Keys](https://aistudio.google.com/apikey)  
-- Click on **“+ Create API Key”**
+### Step 2: Generate an API Key
+Navigate to the following URL:  
+[https://aistudio.google.com/apikey](https://aistudio.google.com/apikey)  
+Click on the **"Create API Key"** button.
 
-### 📌 Step 3: Select Your Project
-- Choose the project you just created.
-- Copy the **API Key** once it is generated.
+### Step 3: Select Your Project
+From the dropdown, select the project you created in Step 1.  
+Once selected, an API key will be generated. Copy this key for later use.
 
-### 🧩 Step 4: Add the API Key to Code
-- Navigate to your project’s `Gemini.jsx` file.
-- Paste the API Key in the designated place like below:
+### Step 4: Add the API Key to the Code
+Open the file `Gemini.jsx` in the project directory.  
+Locate the placeholder for the API key and replace it with the key you copied:
 
 ```javascript
 const API_KEY = "YOUR_API_KEY_HERE";
 ```
 # ScreenShots
 
-![Interface](./client/asets/one.png)
-![Response from Gemini](./client/assets/two.png)
+### Interface
+<img src="./client/src/assets/one.png" alt="Home Interface" width="100%" />
+
+### Response from Gemini
+<img src="./client/src/assets/two.png" alt="Response from Gemini" width="100%" />
