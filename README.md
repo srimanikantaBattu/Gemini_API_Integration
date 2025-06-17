@@ -27,8 +27,7 @@ Go to:
 
 ```javascript
 const API_KEY = "YOUR_API_KEY_HERE";
-
-
+```
 # ScreenShots
 
 ![Interface](./client/asets/one.png)
